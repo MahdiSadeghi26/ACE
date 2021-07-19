@@ -1,0 +1,50 @@
+/* ACE Theme style sheet file */
+/* General style for tags */
+*{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333;
+}
+/* clear fix seciton */
+.clear-fix{
+    clear: both ;
+}
+/* pre ready class */
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.title{
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.title:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+.title:before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: #f9b500;
+}
+.news-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.news-title:hover{
+    color: #f9b500;
+}
