@@ -1,50 +1,78 @@
 /* ACE Theme style sheet file */
 /* General style for tags */
-*{
-    margin: 0 auto;
-    font-size: 14px;
-    color: #333;
+* {
+  margin: 0 auto;
+  font-size: 14px;
+  color: #333;
+}
+a {
+  transition: all 0.2s;
+}
+a:hover {
+  color: #f9b500;
+}
+b {
+  transition: all 0.2s;
+  font-weight: 700;
+}
+a:hover > b {
+  color: #f9b500;
 }
 /* clear fix seciton */
-.clear-fix{
-    clear: both ;
+.clear-fix {
+  clear: both;
 }
 /* pre ready class */
-.position-relative{
-    position: relative;
+.position-relative {
+  position: relative;
 }
-.position-absolute{
-    position: absolute;
+.position-absolute {
+  position: absolute;
 }
-.title{
-    position: relative;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-    font-size: 18px;
-    font-weight: 700;
+.title {
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 700;
 }
-.title:after{
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 1px;
-    background: #ccc;
+.title:after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
 }
-.title:before{
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: 0;
-    width: 80px;
-    height: 5px;
-    background: #f9b500;
+.title:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 5px;
+  background: #f9b500;
 }
-.news-title{
-    font-size: 20px;
-    font-weight: 700;
+.article-title {
+  padding-top: 20px;
 }
-.news-title:hover{
-    color: #f9b500;
+.article-title a {
+  font-size: 20px;
+  font-weight: 700;
 }
+.info-bar {
+  padding: 10px 0 20px 0;
+}
+.info-bar li {
+  display: inline-block;
+  margin-right: 20px;
+  line-height: 25px;
+}
+.text-muted {
+  color: #888;
+}
+.text-yellow {
+  color: #f9b500;
+}
+/* end of pre ready classes */
