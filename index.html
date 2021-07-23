@@ -7,6 +7,10 @@
     <title>ACE</title>
     <!-- Css file section -->
     <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <!-- Main seciton(Row Container) -->
@@ -14,12 +18,17 @@
       <!-- Header Section -->
       <header>
         <nav class="header">
-          <img
-            src="img/logo-black.png"
-            alt="Image Not Fond 404!"
-            class="header-logo"
-          />
-          <ul class="header-menu">
+          <a href="index.html">
+            <img
+              title="Logo"
+              src="img/logo-black.png"
+              alt="Image Not Fond 404!"
+              class="header-logo"
+          /></a>
+          <button class="header-menu-burger" onclick="showMenu()">
+            <i class="fa fa-bars"></i>
+          </button>
+          <ul id="menu" class="header-menu">
             <li class="header-menu-item">
               <a class="header-menu-item-link" href="#">NEWS</a>
             </li>
@@ -41,5 +50,16 @@
     </section>
     <!-- footer section -->
     <footer class="footer"></footer>
+    <!-- Menu burger JS Style -->
+    <script>
+      function showMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.className === "header-menu") {
+          menu.className += " show";
+        } else {
+          menu.className = "header-menu";
+        }
+      }
+    </script>
   </body>
 </html>
