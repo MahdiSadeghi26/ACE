@@ -12,6 +12,7 @@ a {
 a:hover {
   color: #f9b500;
 }
+
 b {
   transition: all 0.2s;
   font-weight: 700;
@@ -98,7 +99,7 @@ a:hover > b {
 }
 @media (max-width: 575.98px) {
   .app {
-    width: calc(100%-30px);
+    width: calc(100% - 30px);
     padding: 0 15px;
   }
 }
@@ -119,14 +120,35 @@ a:hover > b {
   line-height: 80px;
   font-weight: 700;
 }
-@media (max-width:991.98px){
-  .header-logo{
+.header-menu-burger {
+  display: none;
+  float: right;
+  background-color: white;
+  border: none;
+  line-height: 80px;
+}
+.show {
+  display: inline-block !important;
+}
+@media (max-width: 991.98px) {
+  .header-logo {
     height: 15px;
     margin: 33px 0;
   }
-  .header-menu-item-link{
+  .header-menu-item-link {
     padding: 0 5px;
   }
 }
-@media (max-width:767.98px){
+@media (max-width: 767.98px) {
+  .header-menu-burger {
+    display: inline-block;
+  }
+  .header-menu {
+    display: none;
+    width: 100%;
+  }
+  .header-menu-item {
+    display: block;
+    border-bottom: 1px solid #cecece;
+  }
 }
