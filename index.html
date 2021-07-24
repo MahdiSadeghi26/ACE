@@ -2,35 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>ACE</title>
     <!-- Css file section -->
-    <link rel="stylesheet" href="style/style.css" />
+    <link href="style/style.css" rel="stylesheet" />
     <link
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-  </head>
-  <!-- js link -->
-  <script src="js/app.js"></script>
+    <script src="js/app.js"></script></head
+  ><!-- js link -->
   <body>
     <!-- Main seciton(Row Container) -->
     <section class="app">
       <!-- Header Section -->
       <header>
         <nav class="header">
-          <a href="index.html">
-            <img
-              title="Logo"
-              src="img/logo-black.png"
+          <a href="index.html"
+            ><img
               alt="Image Not Fond 404!"
               class="header-logo"
+              src="img/logo-black.png"
+              title="Logo"
           /></a>
           <button class="header-menu-burger" onclick="showMenu()">
-            <i class="fa fa-bars"></i>
+            <i class="fas fa-bars"></i>
           </button>
-          <ul id="menu" class="header-menu">
+          <ul class="header-menu" id="menu">
             <li class="header-menu-item">
               <a class="header-menu-item-link" href="#">NEWS</a>
             </li>
@@ -44,14 +43,45 @@
               <a class="header-menu-item-link" href="#">EXPLAINED</a>
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-item-link" href="#">ICON CALENDER </a>
+              <a class="header-menu-item-link" href="#">ICON CALENDER</a>
             </li>
           </ul>
         </nav>
       </header>
+      <!-- End of Header -->
+      <!-- Content section -->
+      <!-- intro section (pictures) -->
+      <section class="intro-h-600px">
+        <!-- first section  -->
+        <section class="intro-row">
+          <section class="intro-2-3-col">
+            <section></section>
+            <section class="intro-item-caption">
+              <h3 class="caption-title">
+                <span
+                  >Peter Thiels VC Found Invests Million into Bitcoin, Market
+                  Reacts</span
+                >
+              </h3>
+              <ul>
+                <li>
+                  by<b class="text-yellow">Olivia Capzallo</b> Jan 25, 2018
+                </li>
+                <li style="list-style: none">
+                  <i class="fas fa-bolt text-yellow"></i>30,190
+                </li>
+                <li><i class="fas fa-comments text-yellow"></i>30</li>
+              </ul>
+            </section>
+          </section>
+          <section class="intro-1-3-col"></section>
+        </section>
+        <!-- second intro seciton -->
+        <section class="intro-row"></section>
+      </section>
+      <!-- end of intro section -->
     </section>
     <!-- footer section -->
     <footer class="footer"></footer>
-    
   </body>
 </html>
