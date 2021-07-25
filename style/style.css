@@ -1,5 +1,7 @@
 /* ACE Theme style sheet file */
+
 /* General style for tags */
+
 * {
   margin: 0 auto;
   font-size: 14px;
@@ -12,7 +14,6 @@ a {
 a:hover {
   color: #f9b500;
 }
-
 b {
   transition: all 0.2s;
   font-weight: 700;
@@ -21,10 +22,12 @@ a:hover > b {
   color: #f9b500;
 }
 /* clear fix seciton */
+
 .clear-fix {
   clear: both;
 }
 /* pre ready class */
+
 .position-relative {
   position: relative;
 }
@@ -78,7 +81,9 @@ a:hover > b {
   color: #f9b500;
 }
 /* end of pre ready classes */
+
 /* app seciton and media query */
+
 .app {
   width: 1200px;
 }
@@ -104,7 +109,9 @@ a:hover > b {
   }
 }
 /* end of media query */
+
 /* header seciton */
+
 .header-logo {
   float: left;
   margin: 30px 0;
@@ -127,6 +134,8 @@ a:hover > b {
   border: none;
   line-height: 80px;
 }
+/* show seciton for burger menu */
+
 .show {
   display: inline-block !important;
 }
