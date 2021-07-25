@@ -5,6 +5,7 @@
 * {
   margin: 0 auto;
   font-size: 14px;
+  font-family: "Encode Sans Expanded", sans-serif;
   color: #333;
 }
 a {
@@ -160,4 +161,44 @@ a:hover > b {
     display: block;
     border-bottom: 1px solid #cecece;
   }
+}
+/* content se ction */
+/* intro row section */
+.intro-row {
+  width: 100%;
+}
+
+.intro-h-600px {
+  height: 600px;
+}
+
+.intro-h-100 {
+  height: 100%;
+}
+
+.intro-h-2-3 {
+  height: calc(200% / 3);
+}
+
+.intro-h-1-3 {
+  height: calc(100% / 3);
+}
+
+.intro-h-50:first-of-type {
+  margin-bottom: 10px;
+}
+
+.intro-h-50 {
+  height: calc(50% - 5px);
+}
+
+.intro-2-3-col {
+  float: left;
+  margin-right: 10px;
+  width: calc(calc(200% / 3) - 10px);
+}
+
+.intro-1-3-col {
+  float: right;
+  width: calc(100% / 3);
 }
