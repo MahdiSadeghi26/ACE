@@ -168,6 +168,10 @@ a:hover > b {
   width: 100%;
 }
 
+.mb-10x {
+  margin-bottom: 10px;
+}
+
 .intro-h-600px {
   height: 600px;
 }
@@ -201,4 +205,78 @@ a:hover > b {
 .intro-1-3-col {
   float: right;
   width: calc(100% / 3);
+}
+
+.intro-1-3-item {
+  width: 100%;
+}
+
+.intro-1-3-col-item {
+  float: left;
+  width: calc(100% / 3);
+}
+
+.intro-1-3-col-item:nth-child(2) {
+  float: left;
+  margin: 0 10px 0 10px;
+  width: calc(calc(100% / 3) - 20px);
+}
+
+/* items background img */
+/* main image slider */
+.bg-1 {
+  background: url("../img/slider-1-1200x900.jpg") no-repeat center;
+  background-size: cover;
+}
+/* 2 small pictures right of main pic */
+.bg-2 {
+  background: url("../img/slider-2-450x600.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bg-3 {
+  background: url("../img/slider-3-450x600.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* second row img */
+.bg-4 {
+  background: url("../img/slider-4-450x600.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bg-5 {
+  background: url("../img/slider-5-450x600.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.bg-6 {
+  background: url("../img/slider-6-450x600.jpg") no-repeat center;
+  background-size: cover;
+}
+
+/* slides caption style*/
+.intro-item-caption {
+  padding: 0 15px;
+  bottom: 0;
+}
+
+.caption-title span {
+  font-size: 25px;
+  color: #ffff;
+}
+
+.caption-info-bar{
+  padding-left: 0 !important;
+}
+
+.caption-info-bar li {
+  color: #ffff;
+  display: inline;
+  list-style: none;
+  padding: 0;
+  margin: 0 ;
+}
+.caption-info-bar li:nth-child(2){
+  padding: 0 15px;
 }
