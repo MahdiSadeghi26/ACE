@@ -257,26 +257,43 @@ a:hover > b {
 
 /* slides caption style*/
 .intro-item-caption {
-  padding: 0 15px;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.caption-title {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
 }
 
 .caption-title span {
-  font-size: 25px;
   color: #ffff;
+  font-size: 25px;
+  padding-right: 15px;
+  font-weight: 700;
 }
 
-.caption-info-bar{
-  padding-left: 0 !important;
+.caption-title b {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.caption-info-bar {
+  padding: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
 }
 
 .caption-info-bar li {
   color: #ffff;
-  display: inline;
-  list-style: none;
-  padding: 0;
-  margin: 0 ;
-}
-.caption-info-bar li:nth-child(2){
-  padding: 0 15px;
+  display: inline-block;
+  margin-right: 20px;
 }
