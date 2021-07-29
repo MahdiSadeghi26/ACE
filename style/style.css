@@ -162,7 +162,7 @@ a:hover > b {
     border-bottom: 1px solid #cecece;
   }
 }
-/* content se ction */
+/* content section */
 /* intro row section */
 .intro-row {
   width: 100%;
@@ -367,4 +367,24 @@ name mb-10x */
     height: 300px;
     margin-bottom: 10px;
   }
+}
+
+/* Container seciton */
+.container{
+  width: 100%;
+  margin-top: 50px;
+}
+
+.main{
+  float: left;
+  width: calc(calc(200%/3) - 25px);
+  margin-right: 25px;
+}
+
+.main-news{
+  margin-bottom: 20px;
+}
+
+.main-news-img{
+  width: 100%;
 }
