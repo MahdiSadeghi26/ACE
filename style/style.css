@@ -424,3 +424,23 @@ name mb-10x */
    border-bottom: 1px solid #ffffff;
   background-color: #f9b500;
 }
+/* popular post section */
+.popular-post{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.popular-post-img{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.popular-post-title{
+  float: right;
+  margin-left: 20px;
+  width: calc(100% - 120px);
+}
+
+.popular-post-title h3 a b{
+  font-size: 18px;
+}
