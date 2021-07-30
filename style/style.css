@@ -404,4 +404,23 @@ name mb-10x */
   margin-right: 0;
 }
 
-
+/* Sidebar seciton */
+.side-bar{
+  float: right;
+  width: calc(calc(100% / 3) - 25px);
+  margin-left: 25px;
+}
+.side-bar-item{
+  margin-bottom: 40px;
+  width: 100%;
+}
+.sidebar-list{
+  padding: 0;
+}
+.sidebar-list>li{
+  list-style: none;
+  text-align: center;
+  padding: 15px 0;
+   border-bottom: 1px solid #ffffff;
+  background-color: #f9b500;
+}
