@@ -405,42 +405,102 @@ name mb-10x */
 }
 
 /* Sidebar seciton */
-.side-bar{
+.side-bar {
   float: right;
   width: calc(calc(100% / 3) - 25px);
   margin-left: 25px;
 }
-.side-bar-item{
+.side-bar-item {
   margin-bottom: 40px;
   width: 100%;
 }
-.sidebar-list{
+.sidebar-list {
   padding: 0;
 }
-.sidebar-list>li{
+.sidebar-list > li {
   list-style: none;
   text-align: center;
   padding: 15px 0;
-   border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   background-color: #f9b500;
 }
 /* popular post section */
-.popular-post{
+.popular-posts {
   width: 100%;
   margin-bottom: 20px;
 }
 
-.popular-post-img{
+.popular-post-img {
   float: left;
   width: 100px;
   height: 100px;
 }
-.popular-post-title{
+.popular-post-title {
   float: right;
   margin-left: 20px;
   width: calc(100% - 120px);
 }
 
-.popular-post-title h3 a b{
+.popular-post-title h3 a b {
   font-size: 18px;
+}
+
+/* subscribe form section */
+.subscribe-form {
+  margin-top: 20px;
+  border: none;
+}
+
+.subscribe-form-text {
+  padding: 13px 58px 13px 13px;
+  float: left;
+  width: calc(100% - 73px);
+  border: 1px solid #f9b500;
+}
+/* i used to property for chrome and 
+firefox!
+ */
+
+.subscribe-form-text:focus {
+  outline-color: #f9b500;
+  outline: 1px solid #f9b500;
+}
+
+.subscribe-form button{
+  float: right;
+  width: 45px;
+  height: 43px;
+  border: none;
+  text-align: center;
+  background-color: #f9b500;
+  margin-top: -44px;
+}
+
+.subscribe-form button:hover{
+  background-color: black;
+  color: #f9b500;
+}
+
+/* media query of content */
+@media (max-width:991.98px){
+  
+  .main{
+    width: 100%;
+    float: none;
+  }
+ 
+  .side-bar{
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+  
+}
+
+@media (max-width:575.98px){
+  .crypto-w-50{
+    width: 100%;
+    float: none;
+  }
+  
 }
