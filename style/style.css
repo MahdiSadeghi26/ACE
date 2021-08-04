@@ -600,6 +600,7 @@ footer {
   display: inline-block;
   padding: 0 0 20px 20px;
 }
+
 .footer-social-network li a{
   color: #cccccc ;
   font-size: 13px;
@@ -608,3 +609,41 @@ footer {
 .icon-size{
   font-size: 17px;
 }
+
+/* footer media query */
+  @media(max-width:991.98px){
+    .footer-menu{
+      width: 70%;
+    }
+  }
+
+  @media (max-width:768.98px){
+    footer{
+      text-align: center;
+    }
+    .footer-logo{
+      float: none;
+    }
+    .footer-col{
+      width: 100%;
+      text-align: center  ;
+    }
+    .footer-line{
+      width: 80%;
+    }
+    .footer-menu{
+      width: 100%;
+      text-align: center;
+    }
+    .footer-social-network{
+      width: 100%;
+      text-align: center;
+    }
+    .footer-menu li a{
+      font-size: 11px;
+    }
+  }
+
+  @media (max-width:575.98px){
+
+  }
