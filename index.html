@@ -1,523 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>ACE</title>
-    <!-- Css file section -->
-    <link href="style/style.css" rel="stylesheet" />
-    <link
-      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      rel="stylesheet"
-    />
-    <!-- js link -->
-    <script src="js/app.js"></script>
-  </head>
-  <body>
-    <!-- Main seciton(Row Container) -->
-    <section class="app">
-      <!-- Header Section -->
-      <header>
-        <nav class="header">
-          <a href="index.html"
-            ><img
-              alt="Image Not Fond 404!"
-              class="header-logo"
-              src="img/logo-black.png"
-              title="Logo"
-          /></a>
-          <button class="header-menu-burger" onclick="showMenu()">
-            <i class="fas fa-bars"></i>
-          </button>
-          <ul class="header-menu" id="menu">
-            <li class="header-menu-item">
-              <a class="header-menu-item-link" href="#">NEWS</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-item-link" href="#">GUIDES & ANALYTICS</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-item-link" href="#">EVENTS</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-item-link" href="#">EXPLAINED</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-item-link" href="#">ICON CALENDER</a>
-            </li>
-          </ul>
-          <section class="clear-fix"></section>
-        </nav>
-      </header>
-      <!-- End of Header -->
-      <!-- Content section -->
-      <section class="content">
-        <!-- intro section (pictures) -->
-        <section class="intro-h-600px">
-          <!-- first section (big pic )  -->
-          <section class="intro-row intro-h-2-3 mb-10x">
-            <!-- first img -->
-            <section
-              class="intro-2-3-col intro-h-100 position-relative h-md-300px"
-            >
-              <!-- img background  -->
-              <section class="img-bg bg-1 intro-h-100"></section>
-              <section class="intro-item-caption">
-                <h3 class="caption-title">
-                  <span
-                    >Peter Thiels VC Found Invests Million into Bitcoin, Market
-                    Reacts</span
-                  >
-                </h3>
-                <ul class="caption-info-bar">
-                  <li>
-                    by<b class="text-yellow">Olivia Capzallo</b> Jan 25, 2018
-                  </li>
-                  <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                  <li><i class="fas fa-comments text-yellow"></i>30</li>
-                </ul>
-              </section>
-            </section>
-            <!-- first row small picture seciton -->
-            <section class="intro-1-3-col intro-h-100">
-              <section
-                class="intro-1-3-item intro-h-50 position-relative h-md-300px"
-              >
-                <section class="img-bg bg-2 intro-h-100"></section>
-                <section class="intro-item-caption">
-                  <h3 class="caption-title">
-                    <b>Russians Bisiops Condems Cryptocurrecy</b>
-                  </h3>
-                  <ul class="caption-info-bar">
-                    <li>Jan 25, 2018</li>
-                    <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                    <li><i class="fas fa-comments text-yellow"></i>30</li>
-                  </ul>
-                </section>
-              </section>
-              <section
-                class="intro-1-3-item intro-h-50 position-relative h-md-300px"
-              >
-                <section class="img-bg bg-3 intro-h-100"></section>
-                <section class="intro-item-caption">
-                  <h3 class="caption-title">
-                    <b>Bitcoin Adoption by Business in 2017</b>
-                  </h3>
-                  <ul class="caption-info-bar">
-                    <li>Feb 25, 2018</li>
-                    <li><i class="fas fa-bolt text-yellow"></i>40,790</li>
-                    <li><i class="fas fa-comments text-yellow"></i>30</li>
-                  </ul>
-                </section>
-              </section>
-            </section>
-            <section class="clear-fix"></section>
-          </section>
-          <!-- second intro seciton (3small picturs) -->
-          <section class="intro-row intro-h-1-3">
-            <section
-              class="
-                intro-1-3-col-item intro-h-100
-                position-relative
-                h-md-300px
-              "
-            >
-              <section class="img-bg bg-4 intro-h-100"></section>
-              <section class="intro-item-caption">
-                <h3 class="caption-title">
-                  <b>2017 Market Performance: Crypto vs.Stock</b>
-                </h3>
-                <ul class="caption-info-bar">
-                  <li>Jan 25, 2018</li>
-                  <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                  <li><i class="fas fa-comments text-yellow"></i>30</li>
-                </ul>
-              </section>
-            </section>
-            <section
-              class="
-                intro-1-3-col-item intro-h-100
-                position-relative
-                h-md-300px
-              "
-            >
-              <section class="img-bg bg-5 intro-h-100"></section>
-              <section class="intro-item-caption">
-                <h3 class="caption-title">
-                  <b
-                    >Culture Stock: Bitcoin a Part of all Walks of life in
-                    2017</b
-                  >
-                </h3>
-                <ul class="caption-info-bar">
-                  <li>Jan 25, 2018</li>
-                  <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                  <li><i class="fas fa-comments text-yellow"></i>30</li>
-                </ul>
-              </section>
-            </section>
-            <section
-              class="
-                intro-1-3-col-item intro-h-100
-                position-relative
-                h-md-300px
-              "
-            >
-              <section class="img-bg bg-6 intro-h-100"></section>
-              <section class="intro-item-caption">
-                <h3 class="caption-title">
-                  <b>Bitcoin Billionares Hidding in Plain Sight</b>
-                </h3>
-                <ul class="caption-info-bar">
-                  <li>Jan 25, 2018</li>
-                  <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                  <li><i class="fas fa-comments text-yellow"></i>30</li>
-                </ul>
-              </section>
-            </section>
-            <!-- end of second intro section -->
-            <section class="clear-fix"></section>
-          </section>
-          <!-- end of intro section -->
-        </section>
-        <!-- end of intro section -->
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>ACE</title><!-- Css file section -->
+	<link href="style/style.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet"><!-- js link -->
 
-        <!-- Container section -->
-
-        <section class="container">
-          <!-- main content -->
-          <main class="main">
-            <!-- Main news (big pic section) -->
-            <section class="main-news">
-              <h2 class="title">RECENT NEWS</h2>
-
-              <article>
-                <img
-                  src="img/recent-news-1-600x450.jpg"
-                  alt="BTC"
-                  class="main-news-img"
-                />
-                <!-- caption of image -->
-                <h3 class="article-title">
-                  <a href="#"> 2017 Market Performance Crypto vs.Stock </a>
-                </h3>
-                <ul class="info-bar">
-                  <li>
-                    <span class="text-muted"
-                      >by
-                      <a href="#" class="color-black">
-                        <b>Olivia Capzallo,</b></a
-                      >
-                    </span>
-                    <span> Aug 15,2019</span>
-                  </li>
-                  <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                  <li><i class="fas fa-comments text-yellow"></i>30</li>
-                </ul>
-
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore.
-                </p>
-              </article>
-            </section>
-            <!-- crypto news seciton  -->
-            <section class="crypto-news">
-              <h2 class="title">CRYPTO MINING NEWS</h2>
-
-              <article class="crypto-w-50">
-                <img
-                  src="img/crypto-news-2-600x450.jpg"
-                  alt="Not Found 504!"
-                  class="main-news-img"
-                />
-                <h3 class="article-title">
-                  <a href="#">2017 Market Performance Crypto vs.stock</a>
-                </h3>
-
-                <ul class="info-bar">
-                  <li>
-                    <span class="text-muted"
-                      >by
-                      <a href="#" class="color-black">
-                        <b>Olivia Capzallo,</b></a
-                      >
-                    </span>
-                    <span> Feb 30,2019</span>
-                  </li>
-                  <li><i class="fas fa-bolt text-yellow"></i>45,240</li>
-                  <li><i class="fas fa-comments text-yellow"></i>62</li>
-                </ul>
-              </article>
-              <article class="crypto-w-50">
-                <img
-                  src="img/crypto-news-1-600x450.jpg"
-                  alt="Not Found 504!"
-                  class="main-news-img"
-                />
-                <h3 class="article-title">
-                  <a href="#">2017 Market Performance Crypto vs.stock</a>
-                </h3>
-
-                <ul class="info-bar">
-                  <li>
-                    <span class="text-muted"
-                      >by
-                      <a href="#" class="color-black">
-                        <b>Olivia Capzallo,</b></a
-                      >
-                    </span>
-                    <span> Mar 18,2019</span>
-                  </li>
-                  <li><i class="fas fa-bolt text-yellow"></i>66,425</li>
-                  <li><i class="fas fa-comments text-yellow"></i>85</li>
-                </ul>
-              </article>
-              <section class="clear-fix"></section>
-            </section>
-          </main>
-          <!-- Side bar secion -->
-          <aside class="side-bar">
-            <section class="side-bar-item">
-              <!-- price list -->
-              <ul class="sidebar-list">
-                <li><b>1 BTC = $13,2323</b></li>
-                <li><b>1 ETH = $14,5246</b></li>
-                <li><b>1 XRP = $17,4546</b></li>
-                <li><b>1 BIN = $18,4892</b></li>
-                <li><b>1 TRX = $15,3548</b></li>
-                <li><b>1 DOG = $12,8438</b></li>
-              </ul>
-            </section>
-            <!-- popular post secion -->
-            <section class="side-bar-item">
-              <h2 class="title">POPULAR POSTS</h2>
-
-              <section class="popular-posts">
-                <img
-                  src="img/polular-1-100x100.jpg"
-                  class="popular-post-img"
-                  alt=""
-                />
-                <section class="popular-post-title">
-                  <h3>
-                    <a href="#"
-                      ><b>Bitcoin Billionares Hidding in Plain Sight</b></a
-                    >
-                  </h3>
-                  <ul class="info-bar">
-                    <li>
-                      <span class="text-muted">by</span
-                      ><a href="#" class="color-black"
-                        ><b>Olivia Capzallo,</b></a
-                      >
-                      <span> Jan 25, 2018</span>
-                    </li>
-                    <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                    <li><i class="fas fa-comments text-yellow"></i>47</li>
-                  </ul>
-                </section>
-                <section class="clear-fix"></section>
-              </section>
-              <section class="popular-posts">
-                <img
-                  src="img/polular-2-100x100.jpg"
-                  class="popular-post-img"
-                  alt=""
-                />
-                <section class="popular-post-title">
-                  <h3>
-                    <a href="#"
-                      ><b>Bitcoin Billionares Hidding in Plain Sight</b></a
-                    >
-                  </h3>
-                  <ul class="info-bar">
-                    <li>
-                      <span class="text-muted">by</span
-                      ><a href="#" class="color-black"
-                        ><b>Olivia Capzallo,</b></a
-                      >
-                      <span> Jan 25, 2018</span>
-                    </li>
-                    <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                    <li><i class="fas fa-comments text-yellow"></i>47</li>
-                  </ul>
-                </section>
-                <section class="clear-fix"></section>
-              </section>
-              <section class="popular-posts">
-                <img
-                  src="img/polular-3-100x100.jpg"
-                  class="popular-post-img"
-                  alt=""
-                />
-                <section class="popular-post-title">
-                  <h3>
-                    <a href="#"
-                      ><b>Bitcoin Billionares Hidding in Plain Sight</b></a
-                    >
-                  </h3>
-                  <ul class="info-bar">
-                    <li>
-                      <span class="text-muted">by</span
-                      ><a href="#" class="color-black"
-                        ><b>Olivia Capzallo,</b></a
-                      >
-                      <span> Jan 25, 2018</span>
-                    </li>
-                    <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                    <li><i class="fas fa-comments text-yellow"></i>47</li>
-                  </ul>
-                </section>
-                <section class="clear-fix"></section>
-              </section>
-              <section class="popular-posts">
-                <img
-                  src="img/polular-4-100x100.jpg"
-                  class="popular-post-img"
-                  alt=""
-                />
-                <section class="popular-post-title">
-                  <h3>
-                    <a href="#"
-                      ><b>Bitcoin Billionares Hidding in Plain Sight</b></a
-                    >
-                  </h3>
-                  <ul class="info-bar">
-                    <li>
-                      <span class="text-muted">by</span
-                      ><a href="#" class="color-black"
-                        ><b>Olivia Capzallo,</b></a
-                      >
-                      <span> Jan 25, 2018</span>
-                    </li>
-                    <li><i class="fas fa-bolt text-yellow"></i>30,190</li>
-                    <li><i class="fas fa-comments text-yellow"></i>47</li>
-                  </ul>
-                </section>
-                <section class="clear-fix"></section>
-              </section>
-            </section>
-            <!-- subcribe form section -->
-            <section class="side-bar-item">
-              <h2 class="title">NEWS LETTER</h2>
-
-              <p>
-                Subscribe to our newsletter to get notification about new
-                updates, information, discount, etc..
-              </p>
-
-              <form action="" class="subscribe-form">
-                <input
-                  type="email"
-                  id=""
-                  class="subscribe-form-text"
-                  placeholder="Your email!"
-                />
-                <button>b</button>
-                <section class="clear-fix"></section>
-              </form>
-            </section>
-          </aside>
-          <section class="clear-fix"></section>
-        </section>
-
-        <!-- enf of content seciton -->
-      </section>
-    </section>
-    <!-- footer section -->
-    <footer class="footer">
-      <section class="app bg-map">
-        <!-- first row section(Containes column) -->
-        <section class="footer-row">
-          <!-- first column (has logo!) -->
-          <section class="footer-col">
-            <img
-              src="img/logo-white.png"
-              alt="404 Logo Not Found!"
-              class="footer-logo"
-            />
-
-            <section class="clear-fix"></section>
-            <p class="footer-p">
-              Bit coin is an open-source, peer-to-peer, digital decentralized
-              cryptocurrency. Powered by blockchain technology, its defining
-              characteristic is
-            </p>
-            <p class="footer-p footer-p-padding-20px">
-              Copyright ©2021 All rights reserved | This template is made by
-              <a
-                href="https://github.com/MahdiSadeghi26"
-                class="footer-section-title"
-                >Mehdi Fyber</a
-              >
-            </p>
-          </section>
-          <section class="footer-col">
-            <h3 class="footer-section-title">MOST POPULAR</h3>
-            <section class="footer-section-item">
-              <a href="#">Its Make or Break Time for Bitcoin</a>
-              <p>Aug 25, 2020</p>
-            </section>
-
-            <section class="footer-line"></section>
-
-            <section class="footer-section-item">
-              <a href="#">Its Make or Break Time for Bitcoin</a>
-              <p>Aug 25, 2020</p>
-            </section>
-
-            <section class="clear-fix"></section>
-          </section>
-          <section class="footer-col">
-            <h3 class="footer-section-title">MOST POPULAR</h3>
-            <section class="footer-section-item">
-              <a href="#">Its Make or Break Time for Bitcoin</a>
-              <p>Aug 25, 2020</p>
-            </section>
-
-            <section class="footer-line"></section>
-
-            <section class="footer-section-item">
-              <a href="#">Its Make or Break Time for Bitcoin</a>
-              <p>Aug 25, 2020</p>
-            </section>
-
-            <section class="clear-fix"></section>
-          </section>
-          <section class="clear-fix"></section>
-        </section>
-        <!-- line section border! -->
-        <section class="footer-line"></section>
-        <!-- last row section list and icons -->
-        <section class="footer-row">
-          <!-- footer menu(contact menu) -->
-          <ul class="footer-menu">
-            <li>
-              <a href="#">Terms & Condition </a>
-            </li>
-            <li >
-              <a href="#">Privcay Policy </a>
-            </li>
-            <li >
-              <a href="#">Jobs advertsing </a>
-            </li>
-            <li >
-              <a href="#">Contact Us </a>
-            </li>
-          </ul>
-          <section class="clear-fix"></section>
-          <ul class="footer-social-network">
-            <li><a href="#"><i class="icon-size fab fa-facebook-square"></i></a></li>
-            <li><a href="https://twitter.com/Mehdi_Fyber"><i class="icon-size fab fa-twitter"></i></a></li>
-            <li><a href="https://t.me/Mehdi_Fyber"><i class="icon-size fab fa-telegram"></i></a></li>
-            <li><a href="https://github.com/MahdiSadeghi26"><i class="icon-size fab fa-github"></i></a></li>
-          </ul>
-      <section class="clear-fix"></section>
-      </section>
-      <section class="clear-fix"></section>
-    </footer>
-  </body>
+	<script src="js/app.js">
+	</script>
+</head>
+<body>
+	<!-- Main seciton(Row Container) -->
+	<section class="app">
+		<!-- Header Section -->
+		<header>
+			<nav class="header">
+				<a href="index.html"><img alt="Image Not Fond 404!" class="header-logo" src="img/logo-black.png" title="Logo"></a> <button class="header-menu-burger" onclick="showMenu()"><i class="fas fa-bars"></i></button>
+				<ul class="header-menu" id="menu">
+					<li class="header-menu-item">
+						<a class="header-menu-item-link" href="#">NEWS</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-item-link" href="#">GUIDES & ANALYTICS</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-item-link" href="#">EVENTS</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-item-link" href="#">EXPLAINED</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-item-link" href="#">ICON CALENDER</a>
+					</li>
+				</ul>
+				<section class="clear-fix"></section>
+			</nav>
+		</header><!-- End of Header -->
+		<!-- Content section -->
+		<section class="content">
+			<!-- intro section (pictures) -->
+			<section class="intro-h-600px">
+				<!-- first section (big pic )  -->
+				<section class="intro-row intro-h-2-3 mb-10x">
+					<!-- first img -->
+					<section class="intro-2-3-col intro-h-100 position-relative h-md-300px">
+						<!-- img background  -->
+						<section class="img-bg bg-1 intro-h-100"></section>
+						<section class="intro-item-caption">
+							<h3 class="caption-title"><span>Peter Thiels VC Found Invests Million into Bitcoin, Market Reacts</span></h3>
+							<ul class="caption-info-bar">
+								<li>by<b class="text-yellow">Olivia Capzallo</b> Jan 25, 2018</li>
+								<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+								<li><i class="fas fa-comments text-yellow"></i>30</li>
+							</ul>
+						</section>
+					</section><!-- first row small picture seciton -->
+					<section class="intro-1-3-col intro-h-100">
+						<section class="intro-1-3-item intro-h-50 position-relative h-md-300px">
+							<section class="img-bg bg-2 intro-h-100"></section>
+							<section class="intro-item-caption">
+								<h3 class="caption-title"><b>Russians Bisiops Condems Cryptocurrecy</b></h3>
+								<ul class="caption-info-bar">
+									<li>Jan 25, 2018</li>
+									<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+									<li><i class="fas fa-comments text-yellow"></i>30</li>
+								</ul>
+							</section>
+						</section>
+						<section class="intro-1-3-item intro-h-50 position-relative h-md-300px">
+							<section class="img-bg bg-3 intro-h-100"></section>
+							<section class="intro-item-caption">
+								<h3 class="caption-title"><b>Bitcoin Adoption by Business in 2017</b></h3>
+								<ul class="caption-info-bar">
+									<li>Feb 25, 2018</li>
+									<li><i class="fas fa-bolt text-yellow"></i>40,790</li>
+									<li><i class="fas fa-comments text-yellow"></i>30</li>
+								</ul>
+							</section>
+						</section>
+					</section>
+					<section class="clear-fix"></section>
+				</section><!-- second intro seciton (3small picturs) -->
+				<section class="intro-row intro-h-1-3">
+					<section class=" intro-1-3-col-item intro-h-100 position-relative h-md-300px">
+						<section class="img-bg bg-4 intro-h-100"></section>
+						<section class="intro-item-caption">
+							<h3 class="caption-title"><b>2017 Market Performance: Crypto vs.Stock</b></h3>
+							<ul class="caption-info-bar">
+								<li>Jan 25, 2018</li>
+								<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+								<li><i class="fas fa-comments text-yellow"></i>30</li>
+							</ul>
+						</section>
+					</section>
+					<section class=" intro-1-3-col-item intro-h-100 position-relative h-md-300px">
+						<section class="img-bg bg-5 intro-h-100"></section>
+						<section class="intro-item-caption">
+							<h3 class="caption-title"><b>Culture Stock: Bitcoin a Part of all Walks of life in 2017</b></h3>
+							<ul class="caption-info-bar">
+								<li>Jan 25, 2018</li>
+								<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+								<li><i class="fas fa-comments text-yellow"></i>30</li>
+							</ul>
+						</section>
+					</section>
+					<section class=" intro-1-3-col-item intro-h-100 position-relative h-md-300px">
+						<section class="img-bg bg-6 intro-h-100"></section>
+						<section class="intro-item-caption">
+							<h3 class="caption-title"><b>Bitcoin Billionares Hidding in Plain Sight</b></h3>
+							<ul class="caption-info-bar">
+								<li>Jan 25, 2018</li>
+								<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+								<li><i class="fas fa-comments text-yellow"></i>30</li>
+							</ul>
+						</section>
+					</section><!-- end of second intro section -->
+					<section class="clear-fix"></section>
+				</section><!-- end of intro section -->
+			</section><!-- end of intro section -->
+			<!-- Container section -->
+			<section class="container">
+				<!-- main content -->
+				<main class="main">
+					<!-- Main news (big pic section) -->
+					<section class="main-news">
+						<h2 class="title">RECENT NEWS</h2>
+						<article>
+							<img alt="BTC" class="main-news-img" src="img/recent-news-1-600x450.jpg"> <!-- caption of image -->
+							<h3 class="article-title"><a href="#">2017 Market Performance Crypto vs.Stock</a></h3>
+							<ul class="info-bar">
+								<li><span class="text-muted">by <a class="color-black" href="#"><b>Olivia Capzallo,</b></a></span> <span>Aug 15,2019</span></li>
+								<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+								<li><i class="fas fa-comments text-yellow"></i>30</li>
+							</ul>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+						</article>
+					</section><!-- crypto news seciton  -->
+					<section class="crypto-news">
+						<h2 class="title">CRYPTO MINING NEWS</h2>
+						<article class="crypto-w-50">
+							<img alt="Not Found 504!" class="main-news-img" src="img/crypto-news-2-600x450.jpg">
+							<h3 class="article-title"><a href="#">2017 Market Performance Crypto vs.stock</a></h3>
+							<ul class="info-bar">
+								<li><span class="text-muted">by <a class="color-black" href="#"><b>Olivia Capzallo,</b></a></span> <span>Feb 30,2019</span></li>
+								<li><i class="fas fa-bolt text-yellow"></i>45,240</li>
+								<li><i class="fas fa-comments text-yellow"></i>62</li>
+							</ul>
+						</article>
+						<article class="crypto-w-50">
+							<img alt="Not Found 504!" class="main-news-img" src="img/crypto-news-1-600x450.jpg">
+							<h3 class="article-title"><a href="#">2017 Market Performance Crypto vs.stock</a></h3>
+							<ul class="info-bar">
+								<li><span class="text-muted">by <a class="color-black" href="#"><b>Olivia Capzallo,</b></a></span> <span>Mar 18,2019</span></li>
+								<li><i class="fas fa-bolt text-yellow"></i>66,425</li>
+								<li><i class="fas fa-comments text-yellow"></i>85</li>
+							</ul>
+						</article>
+						<section class="clear-fix"></section>
+					</section>
+				</main><!-- Side bar secion -->
+				<aside class="side-bar">
+					<section class="side-bar-item">
+						<!-- price list -->
+						<ul class="sidebar-list">
+							<li><b>1 BTC = $13,2323</b></li>
+							<li><b>1 ETH = $14,5246</b></li>
+							<li><b>1 XRP = $17,4546</b></li>
+							<li><b>1 BIN = $18,4892</b></li>
+							<li><b>1 TRX = $15,3548</b></li>
+							<li><b>1 DOG = $12,8438</b></li>
+						</ul>
+					</section><!-- popular post secion -->
+					<section class="side-bar-item">
+						<h2 class="title">POPULAR POSTS</h2>
+						<section class="popular-posts">
+							<img alt="" class="popular-post-img" src="img/polular-1-100x100.jpg">
+							<section class="popular-post-title">
+								<h3><a href="#"><b>Bitcoin Billionares Hidding in Plain Sight</b></a></h3>
+								<ul class="info-bar">
+									<li>
+										<span class="text-muted">by</span><a class="color-black" href="#"><b>Olivia Capzallo,</b></a> <span>Jan 25, 2018</span>
+									</li>
+									<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+									<li><i class="fas fa-comments text-yellow"></i>47</li>
+								</ul>
+							</section>
+							<section class="clear-fix"></section>
+						</section>
+						<section class="popular-posts">
+							<img alt="" class="popular-post-img" src="img/polular-2-100x100.jpg">
+							<section class="popular-post-title">
+								<h3><a href="#"><b>Bitcoin Billionares Hidding in Plain Sight</b></a></h3>
+								<ul class="info-bar">
+									<li>
+										<span class="text-muted">by</span><a class="color-black" href="#"><b>Olivia Capzallo,</b></a> <span>Jan 25, 2018</span>
+									</li>
+									<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+									<li><i class="fas fa-comments text-yellow"></i>47</li>
+								</ul>
+							</section>
+							<section class="clear-fix"></section>
+						</section>
+						<section class="popular-posts">
+							<img alt="" class="popular-post-img" src="img/polular-3-100x100.jpg">
+							<section class="popular-post-title">
+								<h3><a href="#"><b>Bitcoin Billionares Hidding in Plain Sight</b></a></h3>
+								<ul class="info-bar">
+									<li>
+										<span class="text-muted">by</span><a class="color-black" href="#"><b>Olivia Capzallo,</b></a> <span>Jan 25, 2018</span>
+									</li>
+									<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+									<li><i class="fas fa-comments text-yellow"></i>47</li>
+								</ul>
+							</section>
+							<section class="clear-fix"></section>
+						</section>
+						<section class="popular-posts">
+							<img alt="" class="popular-post-img" src="img/polular-4-100x100.jpg">
+							<section class="popular-post-title">
+								<h3><a href="#"><b>Bitcoin Billionares Hidding in Plain Sight</b></a></h3>
+								<ul class="info-bar">
+									<li>
+										<span class="text-muted">by</span><a class="color-black" href="#"><b>Olivia Capzallo,</b></a> <span>Jan 25, 2018</span>
+									</li>
+									<li><i class="fas fa-bolt text-yellow"></i>30,190</li>
+									<li><i class="fas fa-comments text-yellow"></i>47</li>
+								</ul>
+							</section>
+							<section class="clear-fix"></section>
+						</section>
+					</section><!-- subcribe form section -->
+					<section class="side-bar-item">
+						<h2 class="title">NEWS LETTER</h2>
+						<p>Subscribe to our newsletter to get notification about new updates, information, discount, etc..</p>
+						<form action="" class="subscribe-form">
+							<input class="subscribe-form-text" id="" placeholder="Your email!" type="email"> <button>b</button>
+							<section class="clear-fix"></section>
+						</form>
+					</section>
+				</aside>
+				<section class="clear-fix"></section>
+			</section><!-- enf of content seciton -->
+		</section>
+	</section><!-- footer section -->
+	<footer class="footer">
+		<section class="app bg-map">
+			<!-- first row section(Containes column) -->
+			<section class="footer-row">
+				<!-- first column (has logo!) -->
+				<section class="footer-col">
+					<img alt="404 Logo Not Found!" class="footer-logo" src="img/logo-white.png">
+					<section class="clear-fix"></section>
+					<p class="footer-p">Bit coin is an open-source, peer-to-peer, digital decentralized cryptocurrency. Powered by blockchain technology, its defining characteristic is</p>
+					<p class="footer-p footer-p-padding-20px">Copyright ©2021 All rights reserved | This template is made by <a class="footer-section-title" href="https://github.com/MahdiSadeghi26">Mehdi Fyber</a></p>
+				</section>
+				<section class="footer-col">
+					<h3 class="footer-section-title">MOST POPULAR</h3>
+					<section class="footer-section-item">
+						<a href="#">Its Make or Break Time for Bitcoin</a>
+						<p>Aug 25, 2020</p>
+					</section>
+					<section class="footer-line"></section>
+					<section class="footer-section-item">
+						<a href="#">Its Make or Break Time for Bitcoin</a>
+						<p>Aug 25, 2020</p>
+					</section>
+					<section class="clear-fix"></section>
+				</section>
+				<section class="footer-col">
+					<h3 class="footer-section-title">MOST POPULAR</h3>
+					<section class="footer-section-item">
+						<a href="#">Its Make or Break Time for Bitcoin</a>
+						<p>Aug 25, 2020</p>
+					</section>
+					<section class="footer-line"></section>
+					<section class="footer-section-item">
+						<a href="#">Its Make or Break Time for Bitcoin</a>
+						<p>Aug 25, 2020</p>
+					</section>
+					<section class="clear-fix"></section>
+				</section>
+				<section class="clear-fix"></section>
+			</section><!-- line section border! -->
+			<section class="footer-line"></section><!-- last row section list and icons -->
+			<section class="footer-row">
+				<!-- footer menu(contact menu) -->
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Terms & Condition</a>
+					</li>
+					<li>
+						<a href="#">Privcay Policy</a>
+					</li>
+					<li>
+						<a href="#">Jobs advertsing</a>
+					</li>
+					<li>
+						<a href="#">Contact Us</a>
+					</li>
+				</ul>
+				<section class="clear-fix"></section>
+				<ul class="footer-social-network">
+					<li>
+						<a href="#"><i class="icon-size fab fa-facebook-square"></i></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/Mehdi_Fyber"><i class="icon-size fab fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="https://t.me/Mehdi_Fyber"><i class="icon-size fab fa-telegram"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/MahdiSadeghi26"><i class="icon-size fab fa-github"></i></a>
+					</li>
+				</ul>
+				<section class="clear-fix"></section>
+			</section>
+			<section class="clear-fix"></section>
+		</section>
+	</footer>
+</body>
 </html>
